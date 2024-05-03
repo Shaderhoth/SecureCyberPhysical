@@ -297,7 +297,7 @@ for part in [False,True]:
     
         output_df = pd.DataFrame(final_predictions, columns=['PredictedLabel'])
     
-        test_df['marker'] = final_predictions
+        test_df['marker'] = final_predictions.astype(float)
         test_df.to_csv('TestingResultsMulti.csv', index=False)
         print("Model training complete and predictions saved.")
         print(f"Confidence: {sum([sum([j[i][final_predictions[i]] for j in scores])/len(loaded_models) for i in range(len(final_predictions))])/len(final_predictions) }")
@@ -326,7 +326,7 @@ for part in [False,True]:
             if i % 5 == 4:
                 print()
     
-        test_df['marker'] = final_predictions
+        test_df['marker'] = final_predictions.astype(float)
         test_df.to_csv('TestingResultsBinary.csv', index=False)
         print("Model training complete and predictions saved.")
         print(f"Confidence: {sum([sum([abs((j-0.5)*2) for j in i]) for i in scores])/sum([sum([1 for j in i]) for i in scores])}")
