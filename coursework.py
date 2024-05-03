@@ -2,9 +2,6 @@
 # ## Set up environment
 
 # %%
-!pip install tensorflow
-!pip install pandas
-!pip install scikit-learn
 import numpy as np
 import pandas as pd
 import tensorflow as tf
