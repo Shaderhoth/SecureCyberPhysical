@@ -75,7 +75,7 @@ If you want to test out the scripts for generating models you can set Generation
 
 
 
-## [Github version](https://colab.research.google.com/drive/1yWPvQNLIHvBGU2H1twU99vHlXHyQ4qoy?usp=sharing)
+## [Github version](https://github.com/Shaderhoth/SecureCyberPhysical)
 #### This is This is done automatically using github actions
 ### Step 1:
 Simply locate the artifact produced by the most recent github action \
