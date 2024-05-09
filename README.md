@@ -58,7 +58,7 @@ If you want to test out the scripts for generating models you can set Generation
 
 
 ## [Github version](https://github.com/Shaderhoth/SecureCyberPhysical)
-#### This is This is done automatically using github actions
+#### This is done automatically using github actions
 ### Step 1:
 Simply locate the artifact produced by the most recent github action \
 https://github.com/Shaderhoth/SecureCyberPhysical/actions \
