@@ -1,33 +1,15 @@
 # How to run
 ## [Merged project](https://colab.research.google.com/drive/1TQPJmmdM1IYApCIjUJv7zqW6BrLE1Xw8?usp=sharing)
 #### This contains both of the models together
-https://colab.research.google.com/drive/1TQPJmmdM1IYApCIjUJv7zqW6BrLE1Xw8?usp=sharing
-### Step 1: Upload files
-All the models and data sets are available in this repository \
-The file structure should look like this
-```bash
-|-- TrainingDataBinary.csv
-|-- TrainingDataMulti.csv
-|-- TestingDataBinary.csv
-|-- TestingDataMulti.csv
-|-- models
-    |-- part_1
-    |    |-- model_0.keras
-    |    |-- model_1.keras
-    |    |-- ...
-    |    |-- model_9.keras
-    |-- part_2
-         |-- model_0.keras
-         |-- model_1.keras
-         |-- ...
-         |-- model_21.keras
-```
-### Step 2: Run all
+https://colab.research.google.com/drive/1TQPJmmdM1IYApCIjUJv7zqW6BrLE1Xw8?usp=sharing \
+All of the files in this project are imported from github and therefore don't need to be imported
+
+### Step 1: Run all
 From the Runtime tab select run all (Ctrl + F9) \
 The second code block will ask you for which part you want to run \
 select 0 for Binary (Part 1) \
 Select 1 for Multi (Part 2) \
-(You can run the project twice for both parts) \
+(You can run the project multiple times for both parts, just make sure to run all the code blocks from the beginning if you're trying a different part) \
 Ensure Generation = False (Its set to this by default, this will stop the model generation scripts from running, so it only functions to load the models) \
 If you want to test out the scripts for generating models you can set Generation = True in the second code block, just be aware that the model evolution will run until manually stopped, and you will then need to run the program from the next code block to take the best models and retrain them on the full data set before saving 
 
