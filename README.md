@@ -2,7 +2,7 @@
 ## [Merged project](https://colab.research.google.com/drive/1TQPJmmdM1IYApCIjUJv7zqW6BrLE1Xw8?usp=sharing)
 #### This contains both of the models together
 https://colab.research.google.com/drive/1TQPJmmdM1IYApCIjUJv7zqW6BrLE1Xw8?usp=sharing \
-All of the files in this project are imported from github and therefore don't need to be imported
+All of the files in this project are imported from github and therefore don't need to be imported manually
 
 ### Step 1: Run all
 From the Runtime tab select run all (Ctrl + F9) \
